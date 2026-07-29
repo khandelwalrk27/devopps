@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ritesh Khandelwal | Portfolio</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Internal CSS -->
+    <style>
+        h1{
+            text-align:center;
+            color:#1e40af;
+            margin-top:20px;
+        }
+
+        .custom-box{
+            border:2px dashed #2563eb;
+            padding:15px;
+            border-radius:10px;
+            margin-bottom:20px;
+        }
+    </style>
+
+</head>
+
+<body class="bg-gray-100">
+
+    <!-- Navbar -->
+    <nav class="bg-blue-700 text-white p-4 shadow">
+        <div class="container mx-auto flex justify-between items-center">
+            <h2 class="text-2xl font-bold">Ritesh Khandelwal</h2>
+
+            <ul class="flex gap-6">
+                <li><a href="#" class="hover:text-yellow-300">Home</a></li>
+                <li><a href="#" class="hover:text-yellow-300">About</a></li>
+                <li><a href="#" class="hover:text-yellow-300">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Container -->
+    <div class="container mx-auto mt-10 px-5">
+
+        <h1 class="text-4xl font-bold">
+            Welcome to My Portfolio
+        </h1>
+
+        <div class="custom-box bg-white shadow-lg">
+            <p class="text-lg">
+                Hello! I'm <strong>Ritesh Khandelwal</strong>, a
+                <strong>B.Tech (Computer Science & Engineering)</strong>
+                3rd-year student at
+                <strong>Swami Keshvanand Institute of Technology, Management & Gramothan (SKIT), Jaipur</strong>.
+            </p>
+        </div>
+
+        <!-- Responsive Layout -->
+        <div class="grid md:grid-cols-2 gap-8">
+
+            <!-- Student Information Form -->
+            <div class="bg-white p-6 rounded-lg shadow">
+
+                <h2 class="text-2xl font-bold mb-4 text-blue-700">
+                    Student Information
+                </h2>
+
+                <form>
+
+                    <label class="block mb-2 font-semibold">
+                        Full Name
+                    </label>
+
+                    <input
+                        type="text"
+                        value="Ritesh Khandelwal"
+                        class="w-full border p-2 rounded mb-4">
+
+                    <label class="block mb-2 font-semibold">
+                        Email
+                    </label>
+
+                    <input
+                        type="email"
+                        placeholder="ritesh@example.com"
+                        class="w-full border p-2 rounded mb-4">
+
+                    <label class="block mb-2 font-semibold">
+                        College
+                    </label>
+
+                    <input
+                        type="text"
+                        value="SKIT, Jaipur"
+                        class="w-full border p-2 rounded mb-4">
+
+                    <label class="block mb-2 font-semibold">
+                        Area of Interest
+                    </label>
+
+                    <select class="w-full border p-2 rounded mb-4">
+                        <option>Machine Learning</option>
+                        <option>Data Science</option>
+                        <option>Web Development</option>
+                        <option>Artificial Intelligence</option>
+                    </select>
+
+                    <button
+                    class="bg-blue-600 text-white px-5 py-2 rounded hover:bg-blue-800">
+
+                        Submit
+
+                    </button>
+
+                </form>
+
+            </div>
+
+            <!-- About Me -->
+            <div class="bg-white p-6 rounded-lg shadow">
+
+                <h2 class="text-2xl font-bold mb-4 text-blue-700">
+                    About Me
+                </h2>
+
+                <p class="mb-4">
+                    My name is <strong>Ritesh Khandelwal</strong>. I am currently
+                    pursuing a Bachelor of Technology in Computer Science &
+                    Engineering at SKIT, Jaipur.
+                </p>
+
+                <p class="mb-4">
+                    I have a strong interest in
+                    <strong>Machine Learning</strong>,
+                    <strong>Data Science</strong>, and
+                    <strong>Web Development</strong>.
+                </p>
+
+                <p class="mb-4">
+                    I enjoy learning new technologies, solving coding problems,
+                    and building real-world projects.
+                </p>
+
+                <p>
+                    <strong>GitHub:</strong> github.com/khandelwalrk27
+                </p>
+
+                <button
+                class="mt-6 bg-green-600 text-white px-4 py-2 rounded hover:bg-green-800">
+
+                    View Projects
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
